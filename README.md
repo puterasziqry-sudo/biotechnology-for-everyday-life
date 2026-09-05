@@ -13,3 +13,10 @@
 - The image fallback means the website still displays a relevant local visual if an external photo cannot load.
 - The visitor counter is a browser-local counter, not a true global analytics counter.
 - Educational content should be checked against current scientific and regulatory guidance before formal submission.
+
+
+## GitHub Pages
+Upload the contents of this folder to the repository root so that `index.html`, `style.css`, `script.js`, and the `assets/` folder are at the same level. Enable GitHub Pages from Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+
+## Live visitor counter
+The site uses CounterAPI's current v2 browser library for a shared site-visit counter. The counter is configured for the public workspace `biotechnology-for-everyday-life` and increments once per browser session. If the external counter service is unavailable, the interface falls back to a local browser count instead of showing a blank value.
